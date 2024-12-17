@@ -19,7 +19,7 @@ server.use(mainRoutes);
 
 //PÁGINA DE NÃO ENCONTRADO
 server.use((req, res) => {
-  res.send('Página não encontrada!');
+  res.render('pages/404');
 })
 
 
